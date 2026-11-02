@@ -1,0 +1,11 @@
+[build]
+  publish = "public"
+  functions = "netlify/functions"
+[functions]
+  included_files = ["netlify/functions/schema.sql","netlify/functions/seed.sql"]
+[build.environment]
+  NODE_VERSION = "20"
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/x?a=:splat"
+  status = 200
