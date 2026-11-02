@@ -1,5 +1,6 @@
-# Bhavnaben Khakhrawala - website + admin
+# Bhavnaben Khakhrawala - website + admin 
 Upload ALL files of this folder to a GitHub repo (netlify.toml, netlify/, public/, db/, README.md). Never upload passwords or tokens.
+
 
 ## 1. Database (Cloudflare D1, free)
 1. dash.cloudflare.com > Storage & Databases > D1 > Create database (name: bhavnaben).
